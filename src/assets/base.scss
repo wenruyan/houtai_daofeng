@@ -1,0 +1,56 @@
+@import "./common/_normalize.scss";
+@import "./common/_flex.scss";
+@import "./common/_box.scss";
+
+// 全局样式
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  min-width: 1820px;
+  color: #262F3E;
+}
+
+button:focus {
+  outline: none!important;
+}
+
+.el-form-item__label {
+  color: #262F3E;
+}
+
+body .el-table th.gutter{
+  display: table-cell!important;
+}
+
+.el-button--custom1 {
+  background-color: #FB5597;
+  color: #FFFFFF;
+  border-color: #FB5597;
+  &:hover, &:focus {
+    background-color: #FB5597;
+    color: #FFFFFF;
+    border-color: #FB5597;
+    opacity: 0.8;
+  }
+}
+
+.btn-disabled {
+  background:#fafafa;
+  color:#A4A8AB;
+  padding: 0 16px;
+  border-radius:3px;
+  height: 28px;
+  line-height: 28px;
+}
+
+ul:focus {
+  outline: none;
+}
+
+.my-require {
+  color: red;
+  margin-left: 4px;
+}
